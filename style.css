@@ -1,0 +1,57 @@
+body
+{
+    background: linear-gradient(to bottom left, white, rgb(209, 39, 186), rgb(14, 218, 222), rgb(0, 250, 0), rgb(244, 134, 0));
+}
+.title
+{
+    background-color: rgb(64, 217, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.footer
+{
+    background: linear-gradient(to left, white, rgb(252, 0, 0), rgb(51, 0, 255));
+    left:0;
+    color: rgb(255, 255, 255);
+    text-decoration-line: overline;
+    font-weight: bolder;
+    font-size: larger;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-family: 'Permanent Marker', cursive;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.note
+{
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.997) ;
+    color:rgb(255, 255, 255);
+}
+#whs
+{
+    background-color: rgb(64, 217, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: 5px;
+}
+canvas
+{
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px black;
+    margin-left: 320px;
+    margin-top: 30px;
+}
+video
+{
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px black;
+    margin-left: -320px;
+    margin-top: 30px;
+}

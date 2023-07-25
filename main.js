@@ -1,0 +1,23 @@
+function setup(){
+    canvas = createCanvas(600,480);
+    canvas.center();
+
+    video = createCapture(VIDEO);
+    video.size(639,480)
+    video.center()
+
+    posenet = ml5.poseNet(video,modelLoaded)
+    posenet.on("pose",gotPoses)
+}
+function modelLoaded(){
+    console.log("Model Loaded")
+}
+function draw(){
+    background("lightblue")
+}
+
+function gotPoses(result){
+    if(result.length != 0){
+        console.log(result);
+    }
+}
